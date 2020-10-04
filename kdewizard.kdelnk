@@ -2,8 +2,8 @@
 [KDE Desktop Entry]
 Name=KDE Configuration Wizard
 Exec=kdewizard
-Icon=wizard.xpm
+Icon=kconfwizard.xpm
 Type=Application
 Comment=
 Terminal=0
-MiniIcon=kdewizard.xpm
+MiniIcon=mini-kconfwizard.xpm
