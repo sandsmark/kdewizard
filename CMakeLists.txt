@@ -63,3 +63,109 @@ target_link_libraries(kdewizard1
     X11::X11
 )
 
+install(TARGETS kdewizard1 RUNTIME DESTINATION ${KDE1_BINDIR})
+install(FILES krunonce
+    PERMISSIONS WORLD_EXECUTE WORLD_READ
+    DESTINATION ${KDE1_BINDIR}
+)
+
+install_icon(html/kconfwizard.xpm)
+install(FILES kdewizard.kdelnk DESTINATION ${KDE1_APPSDIR})
+
+install(FILES
+    html/intro.html
+    html/kdelogo.gif
+    html/wizard.gif
+    html/wizard_small.gif
+
+    DESTINATION ${KDE1_DATADIR}/kdewizard/html
+)
+
+install(FILES
+    pics/kdetheme.xpm
+    pics/mactheme.xpm
+    pics/beostheme.xpm
+    pics/wintheme.xpm
+    pics/kdehome.xpm
+    pics/kdedevel.xpm
+    pics/kdeftp.xpm
+    pics/printer.xpm
+
+    DESTINATION ${KDE1_DATADIR}/kdewizard/pics
+)
+
+install(FILES
+    data/kdewww.kdelnk
+    data/kdeftp.kdelnk
+    data/kdedevel.kdelnk
+    data/printer.kdelnk
+
+    theme.mappings
+
+    DESTINATION ${KDE1_DATADIR}/kdewizard
+)
+
+
+##############
+### Themes ###
+##############
+
+
+install(FILES
+    themes/Default/Default.themerc
+    DESTINATION ${KDE1_DATADIR}/kdewizard/Themes/Default
+)
+
+install(FILES
+    themes/BeOS/BeOS.themerc
+    DESTINATION ${KDE1_DATADIR}/kdewizard/Themes/BeOS
+)
+
+install(FILES
+    themes/MacOS/activetitlebar.xpm
+    themes/MacOS/cdrom.xpm
+    themes/MacOS/clap.wav
+    themes/MacOS/close.xpm
+    themes/MacOS/desktop2.jpg
+    themes/MacOS/desktop.jpg
+    themes/MacOS/extensions-folder.xpm
+    themes/MacOS/folder.xpm
+    themes/MacOS/harddrive.xpm
+    themes/MacOS/iconify.xpm
+    themes/MacOS/inactivetitlebar.xpm
+    themes/MacOS/MacOS.htm
+    themes/MacOS/MacOS.themerc
+    themes/MacOS/marbles.wav
+    themes/MacOS/maximizedown.xpm
+    themes/MacOS/maximize.xpm
+    themes/MacOS/menu.xpm
+    themes/MacOS/mini-folder.xpm
+    themes/MacOS/mini-trashempty.xpm
+    themes/MacOS/mini-trashfull.xpm
+    themes/MacOS/panel.xpm
+    themes/MacOS/pindown.xpm
+    themes/MacOS/pinup.xpm
+    themes/MacOS/startup-folder.xpm
+    themes/MacOS/trashempty.xpm
+    themes/MacOS/trashfull.xpm
+    themes/MacOS/wm_bottomleft.xpm
+    themes/MacOS/wm_bottomright.xpm
+    themes/MacOS/wm_bottom.xpm
+    themes/MacOS/wm_left.xpm
+    themes/MacOS/wm_right.xpm
+    themes/MacOS/wm_topleft.xpm
+    themes/MacOS/wm_topright.xpm
+    themes/MacOS/wm_top.xpm
+    DESTINATION ${KDE1_DATADIR}/kdewizard/Themes/MacOS
+)
+
+install(FILES
+    themes/Windows/close.xpm
+    themes/Windows/iconify.xpm
+    themes/Windows/maximizedown.xpm
+    themes/Windows/maximize.xpm
+    themes/Windows/Windows.themerc
+
+    DESTINATION ${KDE1_DATADIR}/kdewizard/Themes/Windows
+)
+
