@@ -1424,3 +1424,5 @@ const QString Theme::pathOf(const QString& aName) const
 
 
 //-----------------------------------------------------------------------------
+
+#include "theme.moc"

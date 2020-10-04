@@ -132,3 +132,5 @@ void DrivePage::toggleDrive(QString file, QString name, QString mount, QString i
   KFM kfm;
   kfm.refreshDesktop();
 }
+
+#include "drivepage.moc"

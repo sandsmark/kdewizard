@@ -40,3 +40,5 @@ void TopLevel::addPage(QString title, QWidget *page)
   wizpage->enabled = TRUE;
   wizard->addPage(wizpage);
 }
+
+#include "toplevel.moc"

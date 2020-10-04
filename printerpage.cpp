@@ -65,3 +65,5 @@ void PrinterPage::togglePrinter()
  KFM kfm;
  kfm.refreshDesktop();
 }
+
+#include "printerpage.moc"

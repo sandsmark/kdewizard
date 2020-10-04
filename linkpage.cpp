@@ -108,4 +108,4 @@ void LinkPage::toggleLink(QString link, QString destination)
  kfm.refreshDesktop();
 }
 
-
+#include "linkpage.moc"

@@ -243,3 +243,4 @@ void ThemePage::startKControl()
   proc.start(KProcess::DontCare);
 }
 
+#include "themepage.moc"

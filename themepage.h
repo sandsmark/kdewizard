@@ -1,4 +1,4 @@
-	#ifndef _THEMEPAGE_H_
+#ifndef _THEMEPAGE_H_
 #define _THEMEPAGE_H_
 
 
@@ -29,4 +29,4 @@ private slots:
 };
 
 
-#endif(
+#endif

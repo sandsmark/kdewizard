@@ -31,3 +31,5 @@ IntroPage::IntroPage(QWidget *parent, const char *name)
   end();
   show();
 }
+
+#include "intropage.moc"
