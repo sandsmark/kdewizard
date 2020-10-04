@@ -1,0 +1,11 @@
+#!/bin/sh
+
+if [ $# != 1 ]; then
+  echo "usage: $0 program"
+  exit -1
+fi
+
+if [ ! -e "$HOME/.kde/share/config/$1rc" ]; then
+  touch $HOME/.kde/share/config/$1rc
+  exec $1
+fi

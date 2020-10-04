@@ -1,0 +1,16 @@
+# KDE Config File
+[KDE Desktop Entry]
+SwallowExec=
+SwallowTitle=
+BinaryPattern=
+Name=Application
+MimeType=
+Name[de]=Drucker
+Exec=kprintwrapper %f
+Icon=printer.xpm
+TerminalOptions=
+Path=
+Type=Application
+Terminal=0
+Name=Printer
+

@@ -1,0 +1,23 @@
+/* XPM */
+static char*maximizedown[]={
+"16 16 4 1",
+"a c #c3c3c3",
+"b c #000000",
+"# c #585858",
+". c #dcdcdc",
+"................",
+"...............#",
+"..aaaaaaaaaaaa##",
+"..aaaabbbbbbba##",
+"..aaaabbbbbbba##",
+"..aaaabaaaaaba##",
+"..abbbbbbbaaba##",
+"..abbbbbbbaaba##",
+"..abaaaaabaaba##",
+"..abaaaaabbbba##",
+"..abaaaaabaaaa##",
+"..abaaaaabaaaa##",
+"..abbbbbbbaaaa##",
+"..aaaaaaaaaaaa##",
+"..##############",
+".###############"};

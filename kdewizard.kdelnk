@@ -1,0 +1,9 @@
+# KDE Config File 
+[KDE Desktop Entry]
+Name=KDE Configuration Wizard
+Exec=kdewizard
+Icon=wizard.xpm
+Type=Application
+Comment=
+Terminal=0
+MiniIcon=kdewizard.xpm

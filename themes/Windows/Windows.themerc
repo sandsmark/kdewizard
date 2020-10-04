@@ -1,0 +1,44 @@
+[General]
+name=Windows
+author=Matthias Hoelzer-Kluepfel
+email=hoelzer@kde.org
+info=
+description=Windows theme
+version=0.1
+[Panel]
+background=
+[Filemanager]
+[Display]
+ColorMode0=Flat
+Color1_0=#008080
+RootIconTextStyle=1
+[Colors]
+contrast=5
+activeBlend=0,0,128
+inactiveBackground=156,156,156
+activeBackground=0,0,128
+inactiveBlend=160,160,164
+inactiveForeground=214,214,214
+activeForeground=255,255,255
+foreground=0,0,0
+selectForeground=255,255,255
+selectBackground=0,0,128
+background=192,192,192
+windowForeground=0,0,0
+windowBackground=255,255,255
+[Window Border]
+[Window Titlebar]
+CloseButton=close.xpm
+MaximizeButton=maximize.xpm
+MaximizeDownButton=maximizedown.xpm
+MinimizeButton=iconify.xpm
+TitleAlignment=middle
+[Window Button Layout]
+ButtonA=Menu
+ButtonB=Off
+ButtonC=Off
+ButtonF=Iconify
+ButtonE=Minimze
+ButtonD=Close
+[Sounds]
+[Window Gimmick]

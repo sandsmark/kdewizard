@@ -1,0 +1,8 @@
+#!/bin/sh
+
+if [ $# = 0 ]; then
+  klpq
+else
+  lpr $@
+fi
+

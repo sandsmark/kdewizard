@@ -1,0 +1,7 @@
+# KDE Config File
+[KDE Desktop Entry]
+Name=www.kde.org
+MiniIcon=www.xpm
+URL=http://www.kde.org
+Icon=www.xpm
+Type=Link
