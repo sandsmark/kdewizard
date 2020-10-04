@@ -41,7 +41,7 @@ qt1_wrap_moc(MOC_FILES
     toplevel.h
 )
 
-add_executable(kdewizard1
+add_executable(kdewizard
     drivepage.cpp
     intropage.cpp
     linkpage.cpp
@@ -53,7 +53,7 @@ add_executable(kdewizard1
 
     ${MOC_FILES}
 )
-target_link_libraries(kdewizard1
+target_link_libraries(kdewizard
     ${KDE1_KDECORE}
     ${KDE1_KDEUI}
     ${KDE1_KFILE}
@@ -63,7 +63,7 @@ target_link_libraries(kdewizard1
     X11::X11
 )
 
-install(TARGETS kdewizard1 RUNTIME DESTINATION ${KDE1_BINDIR})
+install(TARGETS kdewizard RUNTIME DESTINATION ${KDE1_BINDIR})
 install(FILES krunonce
     PERMISSIONS WORLD_EXECUTE WORLD_READ
     DESTINATION ${KDE1_BINDIR}
